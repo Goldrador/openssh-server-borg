@@ -1,4 +1,4 @@
-name: Check docker image
+name: Build docker image
 
 on:
   workflow_dispatch:
