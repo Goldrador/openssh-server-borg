@@ -16,7 +16,7 @@ jobs:
         id: check
         uses: lucacome/docker-image-update-checker@v2.0.0
         with:
-          base-image: lscr.io/linuxserver/openssh-server
+          base-image: ghcr.io/linuxserver/openssh-server
           image: ghcr.io/goldrador/openssh-server-borg:latest
           platforms: linux/amd64
 
