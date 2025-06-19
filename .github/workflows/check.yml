@@ -32,5 +32,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/goldrador/open-sshserver-borg:latest
+          tags: ghcr.io/goldrador/opensshserver-borg:latest
         if: steps.check.outputs.needs-updating == 'true'
